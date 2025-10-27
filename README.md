@@ -52,7 +52,7 @@ This plugin provides AI-powered management of ACF field groups, fields, post typ
 ### Project Structure
 
 ```
-angie-acf-mcp-plugin/
+angie-acf-mcp/
 ├── src/                          # TypeScript source files
 │   ├── index.ts                  # Main entry point
 │   └── mcp/                      # MCP server implementation
