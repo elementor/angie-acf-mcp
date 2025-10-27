@@ -55,7 +55,7 @@ class Angie_Acf_Mcp_Module {
 		wp_enqueue_script(
 			'angie-acf-mcp-server',
 			ANGIE_ACF_MCP_URL . 'dist/acf-mcp-server.umd.cjs',
-			[ 'angie-app' ],
+			[],
 			ANGIE_ACF_MCP_VERSION,
 			[
 				'strategy' => 'defer',

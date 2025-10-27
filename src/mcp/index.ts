@@ -5,6 +5,6 @@
  * Adapted for WordPress environment with proper REST API integration
  */
 
-export { createAcfServer } from './acf-mcp-server-v2';
+export { createAcfServer } from './acf-mcp-server';
 export * from './schemas';
 export * from './rest-client';

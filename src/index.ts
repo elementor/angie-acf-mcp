@@ -24,6 +24,8 @@ const init = async () => {
 	const server = createAcfServer();
 	const sdk = new AngieMcpSdk();
 
+	await sdk.waitForReady();
+
 	// Register with Angie's MCP system
 	await sdk.registerServer( {
 		name: 'acf-server',
